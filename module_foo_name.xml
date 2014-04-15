@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <YOURCOMPANY_MagentoCustomTranslations>
+      <version>0.1.2</version>
+    </YOURCOMPANY_MagentoCustomTranslations>
+  </modules>
+  <frontend>
+      <translate>
+          <modules>
+              <Mage_Review>
+                  <files>
+                      <default>custom_review_translate.csv</default>
+                  </files>
+              </Mage_Review>
+              <Mage_Checkout>
+                  <files>
+                      <default>custom_checkout_translate.csv</default>
+                  </files>
+              </Mage_Checkout>
+          </modules>
+      </translate>
+  </frontend>
+</config>
+  
